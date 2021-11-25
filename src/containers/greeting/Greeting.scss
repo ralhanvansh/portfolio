@@ -2,9 +2,9 @@
 
 .main {
   width: 90%;
-  padding: 20px 10px;
+  // padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
+  // margin-top: 4rem;
 }
 .greet-main {
   width: 90%;
@@ -27,7 +27,7 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
 }
 .button-greeting-div {
   display: flex;
@@ -45,9 +45,12 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div {
+  transform: translate3d(0px, -70px, 0px);
+  > img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .wave-emoji {
@@ -55,7 +58,7 @@
   animation-iteration-count: infinite;
   animation-name: wave;
   display: inline-block;
-  transform-origin: 70% 70%;
+  g-origin: 70% 70%;
 }
 
 @keyframes wave {

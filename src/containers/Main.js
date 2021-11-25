@@ -21,15 +21,15 @@ import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", true);
 
   const changeTheme = () => {
     setIsDark(!isDark);
   };
 
   return (
-    <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+    <div className={isDark ? "dark-mode" : "dark-mode"}>
+      <StyleProvider value={{isDark: true, changeTheme: changeTheme}}>
         <Header />
         <Greeting />
         <Skills />

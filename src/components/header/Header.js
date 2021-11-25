@@ -10,7 +10,8 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  educationInfo
 } from "../../portfolio";
 
 function Header() {
@@ -21,6 +22,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  const viewEducation = educationInfo.display;
 
   return (
     <Headroom>
@@ -44,12 +46,17 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {viewEducation && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
+          {/*viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
             </li>
@@ -68,16 +75,21 @@ function Header() {
             <li>
               <a href="#talks">Talks</a>
             </li>
-          )}
+          )*/}
+          <li>
+            <a href={require("../../assets/docs/Vansh Ralhan.pdf")} download>
+              Resume
+            </a>
+          </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          {/*<li>
+            {eslint-disable-next-line jsx-a11y/anchor-is-valid}
             <a>
               <ToggleSwitch />
             </a>
-          </li>
+          </li>*/}
         </ul>
       </header>
     </Headroom>

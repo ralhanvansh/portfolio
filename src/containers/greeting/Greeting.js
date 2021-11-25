@@ -3,6 +3,7 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
+import developerIsProgramming from "../../assets/lottie/developerYoga";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -19,6 +20,16 @@ export default function Greeting() {
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
+          <div className="greeting-image-div">
+            {illustration.animated ? (
+              <DisplayLottie animationData={developerIsProgramming} />
+            ) : (
+              <img
+                alt="man sitting on table"
+                src={require("../../assets/images/manOnTable.svg")}
+              ></img>
+            )}
+          </div>
           <div className="greeting-text-div">
             <div>
               <h1
@@ -26,7 +37,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">{emoji("")}</span>
               </h1>
               <p
                 className={
@@ -38,27 +49,7 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
-                  <Button
-                    text="See my resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
-                  />
-                )}
-              </div>
             </div>
-          </div>
-          <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
           </div>
         </div>
       </div>
