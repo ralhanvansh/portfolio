@@ -13,10 +13,9 @@ const illustration = {
 const greeting = {
   username: "Vansh Ralhan",
   title: "Hey, I'm Vansh",
-  subTitle: "I'm a full Stack Software Developer currently pursuing M.S in computer science at Lamar University. Previously, I worked as a Software Developer for three years on various large and medium-scale web development projects, gaining experience in a number of languages, databases, and frameworks."
-  ,
-  resumeLink:
-    "", // Set to empty to hide the button
+  subTitle:
+    "I'm a full Stack Software Developer currently pursuing M.S in computer science at Lamar University. Previously, I worked as a Software Developer for three years on various large and medium-scale web development projects, gaining experience in a number of languages, databases, and frameworks.",
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -39,7 +38,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Full Stack Developer who wants to pursue passion for software development while collaborating with like-minded individuals to create solutions that will have a big impact on the future of science and technology.",
+  subTitle:
+    "Full Stack Developer who wants to pursue passion for software development while collaborating with like-minded individuals to create solutions that will have a big impact on the future of science and technology.",
   skills: [
     emoji(
       "➼ Writing, developing, testing, and implementing new software and web applications"
@@ -121,7 +121,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "linux",
       fontAwesomeClassname: "fab fa-linux"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -136,7 +136,7 @@ const educationInfo = {
       logo: require("./assets/images/lamar.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2021 - December 2022",
-      desc: "GPA - 3.7",
+      desc: "GPA - 3.7"
       // descBullets: [
       //   "Responsible for admitting and assisting clients for scheduled testing",
       //   "Adhere to different exams to ensure proper measures are taken for each client"
@@ -178,7 +178,7 @@ const techStack = {
     {
       Stack: "Git/Github",
       progressPercentage: "75%"
-    },
+    }
     // {
     //   Stack: "DevOps",
     //   progressPercentage: "75%"
@@ -223,9 +223,9 @@ const workExperiences = {
       date: "November 2017 – January 2019",
       descBullets: [
         "Followed Agile Scrum process and actively participated for Sprint Retrospective",
-        "Single-handedly built a microservice using Ruby, Sinatra and Elasticsearch for data analysis and Integrated it with the Maropost’s MMC ruby on rails application with sidekiq and API’s",
-      ]    
-    },
+        "Single-handedly built a microservice using Ruby, Sinatra and Elasticsearch for data analysis and Integrated it with the Maropost’s MMC ruby on rails application with sidekiq and API’s"
+      ]
+    }
   ]
 };
 
@@ -386,8 +386,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Let's make something awesome together.\nGet in touch!",
+  subtitle: "Let's make something awesome together.\nGet in touch!",
   number: "+1 312 709 9167",
   email_address: "ralhanvansh05@gmail.com"
 };
