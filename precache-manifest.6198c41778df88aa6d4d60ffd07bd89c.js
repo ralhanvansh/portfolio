@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8162568af38578a44014e9958a1ac2c0",
+    "revision": "3b9dfad3b880e40c0310a4a1a5256fc1",
     "url": "/portfolio/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "13860a589c45f98eec00",
+    "revision": "59e1def60d62a24f851d",
     "url": "/portfolio/static/css/main.ece9e93f.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/4.e4b0b238.chunk.js"
   },
   {
-    "revision": "13860a589c45f98eec00",
-    "url": "/portfolio/static/js/main.9f4f178e.chunk.js"
+    "revision": "59e1def60d62a24f851d",
+    "url": "/portfolio/static/js/main.c9dd4423.chunk.js"
   },
   {
     "revision": "fccf72887578ef4cc7b4",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Vansh Ralhan.3430254b.pdf"
   },
   {
-    "revision": "704d4b509c0fc3ccdfa3de1aaf0f301e",
-    "url": "/portfolio/static/media/cgc.704d4b50.jpg"
+    "revision": "a193ffe2c4e6424a9d20cb2afca60262",
+    "url": "/portfolio/static/media/cgc.a193ffe2.png"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
-    "revision": "beab061309b8ccffb82eda6c2167b540",
-    "url": "/portfolio/static/media/lamar.beab0613.jpeg"
+    "revision": "3f2b11427beb68d12cd4a9223f2ec308",
+    "url": "/portfolio/static/media/lamar.3f2b1142.jpeg"
   },
   {
     "revision": "4e756cdb4b15ee6f6368cbd73767afec",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "e85ec894e63322405c858a59e2becdf0",
-    "url": "/portfolio/static/media/maropost.e85ec894.jpeg"
+    "revision": "f93943195401218d9ffa80ad851ba540",
+    "url": "/portfolio/static/media/maropost.f9394319.jpeg"
   },
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
