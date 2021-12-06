@@ -144,7 +144,7 @@ const educationInfo = {
     },
     {
       schoolName: "Chandigarh Group of Colleges, India",
-      logo: require("./assets/images/cgc.jpg"),
+      logo: require("./assets/images/cgc.png"),
       subHeader: "Bachelor of Science in Electronics and Communication",
       duration: "July 2013 - August 2017",
       desc: "Percentage - 73%"
