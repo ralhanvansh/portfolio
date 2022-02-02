@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afe74188a7320f8b9d6b28620050df2b",
+    "revision": "50da9565e9009fd3245b0838af4e29da",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d492f0b486e79328175d",
+    "revision": "a50d0d71763248dc8bbe",
     "url": "/portfolio/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "6bd193371bf3f2dc6fb7",
+    "revision": "9e73ff6bfb6e14bfd572",
     "url": "/portfolio/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "131cba9773d9ed98e85f",
-    "url": "/portfolio/static/css/main.b5a19061.chunk.css"
+    "revision": "879b443aba1e3b88b255",
+    "url": "/portfolio/static/css/main.902b8139.chunk.css"
   },
   {
-    "revision": "a3f9480b7368f30c8d7e",
-    "url": "/portfolio/static/js/2.a26798dc.chunk.js"
+    "revision": "b6485c7f93578183deaa",
+    "url": "/portfolio/static/js/2.d8128b1b.chunk.js"
   },
   {
-    "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/portfolio/static/js/2.a26798dc.chunk.js.LICENSE.txt"
+    "revision": "408f8ade359af8695a328ed937291fdf",
+    "url": "/portfolio/static/js/2.d8128b1b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d492f0b486e79328175d",
-    "url": "/portfolio/static/js/3.9e5daa03.chunk.js"
+    "revision": "a50d0d71763248dc8bbe",
+    "url": "/portfolio/static/js/3.842b571a.chunk.js"
   },
   {
-    "revision": "6bd193371bf3f2dc6fb7",
-    "url": "/portfolio/static/js/4.e4b0b238.chunk.js"
+    "revision": "9e73ff6bfb6e14bfd572",
+    "url": "/portfolio/static/js/4.0c52c07b.chunk.js"
   },
   {
-    "revision": "131cba9773d9ed98e85f",
-    "url": "/portfolio/static/js/main.219ae56d.chunk.js"
+    "revision": "879b443aba1e3b88b255",
+    "url": "/portfolio/static/js/main.d56022bf.chunk.js"
   },
   {
-    "revision": "fccf72887578ef4cc7b4",
-    "url": "/portfolio/static/js/runtime-main.e798cc7e.js"
+    "revision": "bc0fa2188ef5eb4ee2ca",
+    "url": "/portfolio/static/js/runtime-main.3a4352ee.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
