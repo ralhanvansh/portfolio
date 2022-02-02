@@ -51,7 +51,9 @@ const skillsSection = {
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+https://fontawesome.com/icons?d=gallery 
+http://fizzed.com/oss/font-mfizz  */
+
 
   softwareSkills: [
     {
@@ -83,12 +85,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-angular"
     },
     {
+      skillName: "Python",
+      fontAwesomeClassname: "icon-python"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "sass",
@@ -177,7 +187,7 @@ const techStack = {
     },
     {
       Stack: "Git/Github",
-      progressPercentage: "75%"
+      progressPercentage: "80%"
     }
     // {
     //   Stack: "DevOps",
@@ -197,7 +207,6 @@ const workExperiences = {
       company: "Career & Testing Center, LU",
       companylogo: require("./assets/images/lamarct.png"),
       date: "July 2021 – Present",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Responsible for admitting and assisting clients for scheduled testing",
         "Adhere to different exams to ensure proper measures are taken for each client",
@@ -209,7 +218,6 @@ const workExperiences = {
       company: "Magnon\\TBWA",
       companylogo: require("./assets/images/magnon.png"),
       date: "February 2019 – December 2020",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Collaborated on all stages of the web application development lifecycle, from requirement gathering to production releases",
         "Built web applications from scratch using ruby on rails and angular",
@@ -229,15 +237,11 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
-
-// Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
@@ -385,7 +389,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact ☎️"),
   subtitle: "Let's make something awesome together.\nGet in touch!",
   number: "+1 312 709 9167",
   email_address: "ralhanvansh05@gmail.com"

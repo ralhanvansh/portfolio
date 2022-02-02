@@ -12,7 +12,7 @@ export default function Top() {
       document.body.scrollTop > 20 ||
       document.documentElement.scrollTop > 20
     ) {
-      document.getElementById("topButton").style.visibility = "visible";
+      document.getElementById("topButton").style.visibility = "hidden";
     } else {
       document.getElementById("topButton").style.visibility = "hidden";
     }
