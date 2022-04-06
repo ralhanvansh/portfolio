@@ -146,7 +146,7 @@ const educationInfo = {
       logo: require("./assets/images/lamar.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2021 - December 2022",
-      desc: "GPA - 3.7"
+      desc: "GPA - 3.8"
       // descBullets: [
       //   "Responsible for admitting and assisting clients for scheduled testing",
       //   "Adhere to different exams to ensure proper measures are taken for each client"
