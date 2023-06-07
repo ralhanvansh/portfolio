@@ -57,6 +57,10 @@ http://fizzed.com/oss/font-mfizz  */
 
   softwareSkills: [
     {
+      skillName: "Python",
+      fontAwesomeClassname: "icon-python"
+    },
+    {
       skillName: "Ruby",
       fontAwesomeClassname: "icon-ruby"
     },
@@ -69,10 +73,6 @@ http://fizzed.com/oss/font-mfizz  */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "Redis",
-      fontAwesomeClassname: "icon-redis"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -83,10 +83,6 @@ http://fizzed.com/oss/font-mfizz  */
     {
       skillName: "Angular",
       fontAwesomeClassname: "fab fa-angular"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "icon-python"
     },
     {
       skillName: "html-5",
@@ -108,6 +104,10 @@ http://fizzed.com/oss/font-mfizz  */
     //   skillName: "npm",
     //   fontAwesomeClassname: "fab fa-npm"
     // },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "icon-redis"
+    },
     {
       skillName: "Heroku",
       fontAwesomeClassname: "icon-heroku"
@@ -145,7 +145,7 @@ const educationInfo = {
       schoolName: "Lamar University, TX",
       logo: require("./assets/images/lamar.jpeg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "January 2021 - December 2022",
+      // duration: "January 2021 - December 2022",
       desc: "GPA - 3.8"
       // descBullets: [
       //   "Responsible for admitting and assisting clients for scheduled testing",
@@ -156,8 +156,8 @@ const educationInfo = {
       schoolName: "Chandigarh Group of Colleges, India",
       logo: require("./assets/images/cgc.png"),
       subHeader: "Bachelor of Science in Electronics and Communication",
-      duration: "July 2013 - August 2017",
-      desc: "Percentage - 73%"
+      // duration: "July 2013 - August 2017",
+      // desc: "Percentage - 73%"
       // desc: "Took courses about Object oriented programming, Operating Systems, Data Structures...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -206,9 +206,8 @@ const workExperiences = {
       role: "Graduate Assistant",
       company: "Career & Testing Center, LU",
       companylogo: require("./assets/images/lamarct.png"),
-      date: "July 2021 – Present",
+      // date: "July 2021 – Present",
       descBullets: [
-        "Responsible for admitting and assisting clients for scheduled testing",
         "Adhere to different exams to ensure proper measures are taken for each client",
         "Maintain and monitor the testing environment"
       ]
@@ -217,10 +216,9 @@ const workExperiences = {
       role: "Software Developer",
       company: "Magnon\\TBWA",
       companylogo: require("./assets/images/magnon.png"),
-      date: "February 2019 – December 2020",
+      // date: "February 2019 – December 2020",
       descBullets: [
         "Collaborated on all stages of the web application development lifecycle, from requirement gathering to production releases",
-        "Built web applications from scratch using ruby on rails and angular",
         "Deployment on server using openshift container platform"
       ]
     },
@@ -228,10 +226,10 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Maropost",
       companylogo: require("./assets/images/maropost.jpeg"),
-      date: "November 2017 – January 2019",
+      // date: "November 2017 – January 2019",
       descBullets: [
         "Followed Agile Scrum process and actively participated for Sprint Retrospective",
-        "Single-handedly built a microservice using Ruby, Sinatra and Elasticsearch for data analysis and Integrated it with the Maropost’s MMC ruby on rails application with sidekiq and API’s"
+        "Single-handedly built a microservice using Python and Elasticsearch for data analysis and Integrated it with the Maropost’s MMC application with sidekiq and API’s"
       ]
     }
   ]
