@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8e5df0b11fc0cc79af54a8855713e4a",
+    "revision": "8572878197c4a8acc4f0d610754287a7",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d492f0b486e79328175d",
+    "revision": "ba0cea428870ca38e909",
     "url": "/portfolio/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "6bd193371bf3f2dc6fb7",
+    "revision": "81cb70f8c045074d3cf4",
     "url": "/portfolio/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "7c4cafeb38e0fdd01001",
+    "revision": "f2637be4fb9f5c135b69",
     "url": "/portfolio/static/css/main.b5a19061.chunk.css"
   },
   {
-    "revision": "a3f9480b7368f30c8d7e",
-    "url": "/portfolio/static/js/2.a26798dc.chunk.js"
+    "revision": "f752e7625a53028ef7a0",
+    "url": "/portfolio/static/js/2.817304c6.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/portfolio/static/js/2.a26798dc.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.817304c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d492f0b486e79328175d",
-    "url": "/portfolio/static/js/3.9e5daa03.chunk.js"
+    "revision": "ba0cea428870ca38e909",
+    "url": "/portfolio/static/js/3.3629206e.chunk.js"
   },
   {
-    "revision": "6bd193371bf3f2dc6fb7",
-    "url": "/portfolio/static/js/4.e4b0b238.chunk.js"
+    "revision": "81cb70f8c045074d3cf4",
+    "url": "/portfolio/static/js/4.fe61436c.chunk.js"
   },
   {
-    "revision": "7c4cafeb38e0fdd01001",
-    "url": "/portfolio/static/js/main.a666f553.chunk.js"
+    "revision": "f2637be4fb9f5c135b69",
+    "url": "/portfolio/static/js/main.00763306.chunk.js"
   },
   {
-    "revision": "fccf72887578ef4cc7b4",
-    "url": "/portfolio/static/js/runtime-main.e798cc7e.js"
+    "revision": "eac7f41fbe150cc91fbe",
+    "url": "/portfolio/static/js/runtime-main.30a6f25e.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
-  },
-  {
-    "revision": "df4be36cc29868d6b0288c10f0a2e670",
-    "url": "/portfolio/static/media/Vansh Ralhan.df4be36c.pdf"
   },
   {
     "revision": "a193ffe2c4e6424a9d20cb2afca60262",
