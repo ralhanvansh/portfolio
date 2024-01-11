@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ba46e00b.chunk.css",
-    "main.js": "/portfolio/static/js/main.b115e99e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b115e99e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.5097a087.chunk.css",
+    "main.js": "/portfolio/static/js/main.a90afdb0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a90afdb0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.608d9de5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.608d9de5.js.map",
     "static/js/2.8d30f7de.chunk.js": "/portfolio/static/js/2.8d30f7de.chunk.js",
@@ -14,20 +14,20 @@
     "static/js/4.2902eb4e.chunk.js": "/portfolio/static/js/4.2902eb4e.chunk.js",
     "static/js/4.2902eb4e.chunk.js.map": "/portfolio/static/js/4.2902eb4e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.54e17b5ba97fee31878d980db617cb0b.js": "/portfolio/precache-manifest.54e17b5ba97fee31878d980db617cb0b.js",
+    "precache-manifest.7e3b03d80b9a33cf88b071b892dc9b21.js": "/portfolio/precache-manifest.7e3b03d80b9a33cf88b071b892dc9b21.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/portfolio/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/portfolio/static/css/4.e91a4b36.chunk.css.map",
-    "static/css/main.ba46e00b.chunk.css.map": "/portfolio/static/css/main.ba46e00b.chunk.css.map",
+    "static/css/main.5097a087.chunk.css.map": "/portfolio/static/css/main.5097a087.chunk.css.map",
     "static/js/2.8d30f7de.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8d30f7de.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/PROTEK.jpeg": "/portfolio/static/media/PROTEK.44875af7.jpeg",
     "static/media/cgc.png": "/portfolio/static/media/cgc.a193ffe2.png",
     "static/media/codeInLogo.webp": "/portfolio/static/media/codeInLogo.47a7a717.webp",
     "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.51cf7192.svg",
     "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.59389695.svg",
     "static/media/googleAssistantLogo.webp": "/portfolio/static/media/googleAssistantLogo.e79c6392.webp",
     "static/media/lamar.jpeg": "/portfolio/static/media/lamar.3f2b1142.jpeg",
-    "static/media/lamarct.png": "/portfolio/static/media/lamarct.4e756cdb.png",
     "static/media/magnon.png": "/portfolio/static/media/magnon.466bb5d3.png",
     "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.52be3144.svg",
     "static/media/maropost.jpeg": "/portfolio/static/media/maropost.f9394319.jpeg",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.608d9de5.js",
     "static/js/2.8d30f7de.chunk.js",
-    "static/css/main.ba46e00b.chunk.css",
-    "static/js/main.b115e99e.chunk.js"
+    "static/css/main.5097a087.chunk.css",
+    "static/js/main.a90afdb0.chunk.js"
   ]
 }
