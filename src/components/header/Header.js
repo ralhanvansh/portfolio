@@ -78,9 +78,9 @@ function Header() {
           )*/}
           <li>
             {/* <a href={require("../../assets/docs/Vansh Ralhan.pdf")} target="_blank" download> */}
-            <a href="" target="_blank" download>
+            {/* <a href="" target="_blank" download>
               Resume
-            </a>
+            </a> */}
           </li>
           <li>
             <a href="#contact">Contact</a>

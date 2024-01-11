@@ -13,8 +13,8 @@ const illustration = {
 const greeting = {
   username: "Vansh Ralhan",
   title: "Hey, I'm Vansh",
-  subTitle:
-    "I'm a full Stack Software Developer currently pursuing M.S in computer science at Lamar University. Previously, I worked as a Software Developer for three years on various large and medium-scale web development projects, gaining experience in a number of languages, databases, and frameworks.",
+  subTitle:    
+    "I am a seasoned Full Stack Software Engineer with a Master's in Computer Science from Lamar University. With over four years of professional experience, I have played a pivotal role in shaping successful projects, including my recent contribution to Fleet Service Tracker at Shell TapUp. I worked on various large and medium-scale web development projects, gaining experience in a number of languages, databases, and frameworks.",
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -22,7 +22,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/vanshralhan/",
+  // linkedin: "https://www.linkedin.com/in/vanshralhan/",
   gmail: "ralhanvansh05@gmail.com",
   github: "https://github.com/ralhanvansh",
   facebook: "https://www.facebook.com/vanshralhan",
@@ -39,7 +39,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Full Stack Developer who wants to pursue passion for software development while collaborating with like-minded individuals to create solutions that will have a big impact on the future of science and technology.",
+    "Passionate Full Stack Developer, driven by a deep love for software development. Eager to collaborate with like-minded individuals, my goal is to craft innovative solutions that will make a substantial impact on the future of science and technology.",
   skills: [
     emoji(
       "➼ Writing, developing, testing, and implementing new software and web applications"
@@ -100,10 +100,10 @@ http://fizzed.com/oss/font-mfizz  */
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
     {
       skillName: "Redis",
       fontAwesomeClassname: "icon-redis"
@@ -203,13 +203,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Graduate Assistant",
-      company: "Career & Testing Center, LU",
-      companylogo: require("./assets/images/lamarct.png"),
+      role: "Software Engineer",
+      company: "Pro-Tek Consulting",
+      companylogo: require("./assets/images/PROTEK.jpeg"),
       // date: "July 2021 – Present",
       descBullets: [
-        "Adhere to different exams to ensure proper measures are taken for each client",
-        "Maintain and monitor the testing environment"
+        "Client: 'Shell TapUp'",
+        "Produced high-quality deliverables by developing and maintaining reliable code, leveraging Python and Django frameworks for robust application architecture",
+        "Elevated UX/UI design by enhancing customer and admin dashboards with HTML, CSS, Bootstrap, JavaScript, and jQuery enhancing overall user experience."
       ]
     },
     {
@@ -219,7 +220,7 @@ const workExperiences = {
       // date: "February 2019 – December 2020",
       descBullets: [
         "Collaborated on all stages of the web application development lifecycle, from requirement gathering to production releases",
-        "Deployment on server using openshift container platform"
+        "Built an in-house web app using Django, Angular, openAM OAuth, Adir, and OpenShift, effectively managing over 1,000 resources utilized by 500+ TBWA employees.",
       ]
     },
     {
@@ -231,7 +232,17 @@ const workExperiences = {
         "Followed Agile Scrum process and actively participated for Sprint Retrospective",
         "Single-handedly built a microservice using Python and Elasticsearch for data analysis and Integrated it with the Maropost’s MMC application with sidekiq and API’s"
       ]
-    }
+    },
+    // {
+    //   role: "Graduate Assistant",
+    //   company: "Career & Testing Center, LU",
+    //   companylogo: require("./assets/images/lamarct.png"),
+    //   // date: "July 2021 – Present",
+    //   descBullets: [
+    //     "Adhere to different exams to ensure proper measures are taken for each client",
+    //     "Maintain and monitor the testing environment"
+    //   ]
+    // }
   ]
 };
 
