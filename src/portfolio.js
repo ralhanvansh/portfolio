@@ -14,7 +14,7 @@ const greeting = {
   username: "Vansh Ralhan",
   title: "Hey, I'm Vansh",
   subTitle:    
-    "I am a seasoned Full Stack Software Engineer with a Master's in Computer Science from Lamar University. With over four years of professional experience, I have played a pivotal role in shaping successful projects, including my recent contribution to Fleet Service Tracker at Shell TapUp. I worked on various large and medium-scale web development projects, gaining experience in a number of languages, databases, and frameworks.",
+    "I am a highly skilled Full Stack Software Engineer with a Master's in Computer Science from Lamar University. With over five years of professional experience, I have successfully delivered impactful solutions across diverse industries. My expertise spans backend technologies like Python, Django, FastAPI, Ruby, and Ruby on Rails, as well as frontend frameworks like Angular. I have a proven track record of leading and contributing to large-scale projects, leveraging my proficiency in databases, cloud platforms, and modern development practices.",
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -204,20 +204,43 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Pro-Tek Consulting",
-      companylogo: require("./assets/images/PROTEK.jpeg"),
-      // date: "July 2021 – Present",
+      company: "Chevron",
+      companylogo: require("./assets/images/chevron.png"),
+      date: "July 2024 – Present",
       descBullets: [
-        "Client: 'Shell TapUp'",
+        "Developed and maintained Python applications, extending FastAPI and Angular frameworks for robust solutions.",
+        "Enhanced database systems by modifying schemas, implementing SQLAlchemy ORM, and optimizing performance.",
+        "Collaborated with cross-functional teams to design, test, and deliver scalable software solutions adhering to best practices.",
+        "Troubleshot and resolved system issues while ensuring code quality through PyTest and peer reviews."
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Shell TapUp",
+      companylogo: require("./assets/images/shelltapup.jpg"),
+      date: "June 2023 – April 2024",
+      descBullets: [
         "Produced high-quality deliverables by developing and maintaining reliable code, leveraging Python and Django frameworks for robust application architecture",
         "Elevated UX/UI design by enhancing customer and admin dashboards with HTML, CSS, Bootstrap, JavaScript, and jQuery enhancing overall user experience."
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Pro-Tek Consulting",
+      companylogo: require("./assets/images/PROTEK.jpeg"),
+      date: "July 2021 – Present",
+      descBullets: [
+        "Developed and maintained scalable web applications using Python, Django, and FastAPI for backend development.",
+        "Built dynamic and responsive frontends with Angular, ensuring seamless user experiences.",
+        "Designed and optimized SQL databases, leveraging SQLAlchemy for ORM and efficient data handling.",
+        "Collaborated with cross-functional teams using Azure DevOps and Jira to manage project workflows and deployments."
       ]
     },
     {
       role: "Software Developer",
       company: "Magnon\\TBWA",
       companylogo: require("./assets/images/magnon.png"),
-      // date: "February 2019 – December 2020",
+      date: "February 2019 – December 2020",
       descBullets: [
         "Collaborated on all stages of the web application development lifecycle, from requirement gathering to production releases",
         "Built an in-house web app using Django, Angular, openAM OAuth, Adir, and OpenShift, effectively managing over 1,000 resources utilized by 500+ TBWA employees.",
@@ -227,7 +250,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Maropost",
       companylogo: require("./assets/images/maropost.jpeg"),
-      // date: "November 2017 – January 2019",
+      date: "November 2017 – January 2019",
       descBullets: [
         "Followed Agile Scrum process and actively participated for Sprint Retrospective",
         "Single-handedly built a microservice using Python and Elasticsearch for data analysis and Integrated it with the Maropost’s MMC application with sidekiq and API’s"
